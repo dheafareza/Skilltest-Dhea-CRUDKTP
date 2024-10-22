@@ -14,13 +14,13 @@ Create a new KTP:
 POST /api/ktps
 Request Body (JSON):
 
-{
+```json {
   "nama": " ",
   "nik": " ",
   "alamat": " ",
   "tempat_lahir": " ",
   "tanggal_lahir": " "
-}
+}```
 Update a KTP by ID:
 PUT /api/ktps/{id}
 
